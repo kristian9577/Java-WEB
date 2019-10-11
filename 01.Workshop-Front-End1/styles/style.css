@@ -1,0 +1,66 @@
+body {
+    background: url(../images/background.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    background: #007bff;
+    height: 40px;
+}
+
+h1 {
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+img {
+    height: 40px;
+    padding: 5px;
+}
+
+.wizard {
+    width: 400px;
+    height: 400px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.list-bullets {
+    list-style-type: disc;
+}
+
+.list.list-horizontal li {
+    display: inline-block;
+}
+
+.box {
+    height: 350px;
+    border: 1px solid #007bff;
+    background: rgb(248, 249, 250);
+    border-radius: 5px;
+}
+.box h2{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.content-section {
+    padding-top: 50px;
+}
+.box-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding-bottom: 15px;
+}
+label input{
+    margin: 0 3px;
+}
